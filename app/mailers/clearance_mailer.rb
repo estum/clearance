@@ -1,4 +1,4 @@
-if defined? ActionMailer::Base
+if defined? ActionMailer
   class ClearanceMailer < ActionMailer::Base
     def change_password(user)
       @user = user
